@@ -1,0 +1,97 @@
+.container {
+  .container {
+    display: flex; /* Đặt các phần tử con theo chiều ngang */
+    justify-content: space-around; /* Tạo khoảng cách giữa các phần tử */
+    align-items: center; /* Canh giữa theo chiều dọc */
+    border: 1px solid #000; /* Viền container */
+    padding: 20px;
+  }
+}
+
+.card1 {
+  border: 1px solid pink;
+  border-radius: 10px;
+  text-align: left;
+  height: 900px;
+  width: 1000px;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+.xinChao {
+  margin-top: -400px;
+  margin-left: 100px;
+}
+.wave-container {
+  position: relative;
+  width: 100%; /* Chiều rộng đầy đủ */
+  height: 400px; /* Chiều cao container */
+  overflow: hidden;
+}
+
+.wave-container img {
+  width: 100%; /* Ảnh chiếm hết chiều rộng */
+  height: 100%; /* Ảnh chiếm hết chiều cao */
+  object-fit: cover; /* Giữ tỷ lệ ảnh mà không bị méo */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Đẩy ảnh ra sau sóng */
+}
+
+.card-mini {
+  height: 600px;
+  width: 1000px;
+  margin-top: 345px;
+  text-align: left;
+}
+
+.card-mini2 {
+  border: 1px solid;
+  height: 300px;
+  width: 498px;
+  text-align: right;
+  margin-left: 500px;
+  margin-top: -301px;
+}
